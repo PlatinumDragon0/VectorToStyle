@@ -11,7 +11,16 @@ private:
 
 public:
     
-    Vector() : x(15), y(5), z(5)
+    Vector()
+    {
+        std::cout << "Input X, Y and Z" << "\n";
+
+        std::cin >> x;
+        std::cin >> y;
+        std::cin >> z;
+    }
+
+    Vector(double _x, double _y, double _z) : x(_x), y(_y), z(_z)
     {}
 
     void GetV()
@@ -33,9 +42,9 @@ public:
 
 int main()
 {
-    
-    Vector Vrbl;
-    Vrbl.GetV();
-    Vrbl.Magnitude();
+
+    Vector v; 
+    v.GetV();
+    v.Magnitude();
 
 }

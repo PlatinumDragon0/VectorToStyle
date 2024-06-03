@@ -1,2 +1,5 @@
 ﻿  VectorToStyle.cpp
+D:\Unreal Engine\SkillBox\ConsoleProgram\VectorToStyle\VectorToStyle.cpp(32,16): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\Unreal Engine\SkillBox\ConsoleProgram\VectorToStyle\VectorToStyle.cpp(33,16): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+D:\Unreal Engine\SkillBox\ConsoleProgram\VectorToStyle\VectorToStyle.cpp(34,16): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
   VectorToStyle.vcxproj -> D:\Unreal Engine\SkillBox\ConsoleProgram\VectorToStyle\x64\Debug\VectorToStyle.exe
